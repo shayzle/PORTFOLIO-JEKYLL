@@ -1,75 +1,152 @@
+<!-- Project Portfolio : Shanisya Lahida -->
+
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shanisya Lahida</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+      crossorigin="anonymous"
+    />
+    <link href="./webacademie.css" rel="stylesheet" />
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+      }
 
-<head>
-  <meta charset="utf-8">
-  <title>About Me</title>
+      header {
+        padding: 20px 20px;
+      }
 
-  <!-- mobile responsive meta -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  
-  <!-- ** Plugins Needed for the Project ** -->
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="/assets/plugins/bootstrap/bootstrap.min.css">
-  <!-- slick slider -->
-  <link rel="stylesheet" href="/assets/plugins/slick/slick.css">
-  <!-- themefy-icon -->
-  <link rel="stylesheet" href="/assets/plugins/themify-icons/themify-icons.css">
+      header .row {
+        display: flex;
+        align-items: center;
+      }
 
-  <!-- Main Stylesheet -->
-  <link href="/assets/css/style.css" rel="stylesheet">
-  
-  <!--Favicon-->
-  <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
+      header h1 {
+        font-weight: 700;
+        margin: 30;
+        padding: 30;
+      }
 
-</head>
+      header nav {
+        display: flex;
+        justify-content: flex-end;
+      }
 
-<body>
+      header p {
+        padding: 20px 20px;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: larger;
+      }
 
-  
-  
-  <header class="navigation fixed-top">
-  <nav class="navbar navbar-expand-lg navbar-dark">
-    <a class="navbar-brand font-tertiary h3" href="/">
-      
-        <img src="/assets/images/Shanisya Lahida" alt="Shanisya Lahida">
-      
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
-      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      .scroll-link {
+        color: black;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header (navbar) -->
+    <header class="container">
+      <div class="row">
+        <h1 class="col-sm-4">
+          <!-- <img
+            src="/assets/x-diamond.svg"
+            height="50"
+            alt="Logo"
+          /> -->
+          Shanisya Lahida
+        </h1>
+        <nav class="col-sm-8 text-right">
+          <a href="#" class="scroll-link">
+            <p>About</p>
+          </a>
+          <a href="#" class="scroll-link">
+            <p>Author</p>
+          </a>
+          <a href="#" class="scroll-link">
+            <p>Projects</p>
+          </a>
+          <!-- <form class="d-flex" role="search">
+            <input
+              class="form-control"
+              type="search"
+              placeholder="Code Postal"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Vérifier
+            </button> -->
+            <a>
+          <img
+            src="/assets/images/photos/Epitech.png"
+            height="50"
+            alt="Logo Epitech"
+            style="padding-left: 30px; padding-top: 15px;"
+          />
+          
+            </a>
+          </form>
+        </nav>
+      </div>
+    </header>
+    <br />
 
-    <div class="collapse navbar-collapse text-center" id="navigation">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="/">Home</a>
-        </li>
-        
-          <li class="nav-item ">
-            <a class="nav-link" href="/about/">About</a>
-          </li>
-        
-          <li class="nav-item ">
-            <a class="nav-link" href="/blog/">Blog</a>
-          </li>
-        
-          <li class="nav-item ">
-            <a class="nav-link" href="/portfolio/">Portfolio</a>
-          </li>
-        
-          <li class="nav-item ">
-            <a class="nav-link" href="/contact/">Contact</a>
-          </li>
-        
-      </ul>
-    </div>
-  </nav>
-</header>
+    <!-- Home (Section 1) -->
+    <section id="home">
+      <div class="px-5 pt-5 my-3 text-center border-bottom">
+        <h1 class="display-4 fw-bold text-body-emphasis">
+          Shanisya Lahida
+        </h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">
+            I'm a web development student at Epitech, learning how to build
+            clean, functional, and user-focused websites. I'm still growing my
+            skills, but I love solving problems, experimenting with new tools,
+            and turning ideas into real projects. This portfolio is a place to
+            document what I'm learning and what I'm creating along the way.
+          </p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+            <a href="#how-it-works" class="scroll-link">
+              <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">
+                My Github
+              </button>
+            </a>
+            <a href="#visit-us" class="scroll-link">
+              <button
+                type="button"
+                class="btn btn-outline-secondary btn-lg px-4"
+              >
+                Contact Me
+              </button>
+            </a>
+          </div>
+        </div>
+        <div class="overflow-hidden" style="max-height: 30vh">
+          <div class="container px-5">
+            <img
+              src="/assets/images/photos/sorbonne1.jpg"
+              class="img-fluid border rounded-3 shadow-lg mb-4"
+              alt="Big Photo"
+              width="700"
+              height="500"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <!-- page title -->
+    <br />
+    <br />
+    <!-- page title -->
 <section class="page-title-alt bg-primary position-relative">
   <div class="container">
     <div class="row">
@@ -256,79 +333,10 @@ document what I’m learning and what I’m creating along the way.</p>
   </div>
 </section>
 
-
-  <!-- contact -->
-<section class="section section-on-footer" data-background="/assets/images/backgrounds/bg-dots.png">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h2 class="section-title">Contact Info</h2>
-      </div>
-      <div class="col-lg-8 mx-auto">
-        <div class="bg-white rounded text-center p-5 shadow-down">
-          <h4 class="mb-80">Contact Form</h4>
-          <form action="https://formspree.io/shanisyalahida@gmail.com" method="POST" class="row">
-            <div class="col-md-6">
-              <input type="text" id="name" name="name" placeholder="Full Name" class="form-control px-0 mb-4">
-            </div>
-            <div class="col-md-6">
-              <input type="email" id="email" name="_replyto" placeholder="Email Address" class="form-control px-0 mb-4">
-            </div>
-            <div class="col-12">
-              <textarea name="message" id="message" class="form-control px-0 mb-4"
-                placeholder="Type Message Here"></textarea>
-            </div>
-            <div class="col-lg-6 col-10 mx-auto">
-              <button type="submit" class="btn btn-primary w-100">send</button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- /contact -->
-  
-  <!-- footer -->
-<footer class="bg-dark footer-section">
-  <div class="section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <h5 class="text-light">Email</h5>
-          <p class="text-white paragraph-lg font-secondary">shanisyalahida<br>@gmail.com</p>
-        </div>
-        <div class="col-md-4">
-          <h5 class="text-light">Phone</h5>
-          <p class="text-white paragraph-lg font-secondary">+33 6 83 33 11</p>
-        </div>
-        <div class="col-md-4">
-          <h5 class="text-light">Address</h5>
-          <p class="text-white paragraph-lg font-secondary">22 Avenue de Versailles, 75012, Paris</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="border-top text-center border-dark py-5">
-    <p class="mb-0 text-light">Copyright ©<script>
-        var CurrentYear = new Date().getFullYear()
-        document.write(CurrentYear)
-      </script> a theme by <a href="https://themefisher.com/">themefisher.com</a></p>
-  </div>
-</footer>
-<!-- /footer -->
-
-  <!-- jQuery -->
-  <script src="/assets/plugins/jQuery/jquery.min.js"></script>
-  <!-- Bootstrap JS -->
-  <script src="/assets/plugins/bootstrap/bootstrap.min.js"></script>
-  <!-- slick slider -->
-  <script src="/assets/plugins/slick/slick.min.js"></script>
-  <!-- filter -->
-  <script src="/assets/plugins/shuffle/shuffle.min.js"></script>
-
-  <!-- Main Script -->
-  <script src="/assets/js/script.js"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
