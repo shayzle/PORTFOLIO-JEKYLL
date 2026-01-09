@@ -1,0 +1,307 @@
+---
+#-------------------------------
+# General Site Settings
+
+title: Shanisya Lahida
+logo: Shanisya Lahida
+author: Shanisya Lahida
+email: shanisyalahida<br>@gmail.com
+phone: +33 6 83 33 11
+address: 22 Avenue de Versailles, 75016, Paris
+copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
+
+
+menu:
+  - { name: About, link: "/about/" }
+  - { name: Blog, link: "/blog/" }
+  - { name: Portfolio, link: "/portfolio/" }
+  - { name: Contact, link: "/contact/" }
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+google-analytics: # UA-XXXXXX-X
+
+#-------------------------------
+# Comment Section (Disqus)
+
+disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
+
+#-------------------------------
+# Hero Section
+
+hero:
+  hero-title: Hi! I'm <br> Shanisya Lahida <br> Full-Stack Developer
+
+social:
+  - { icon: "ti-facebook", link: "#" }
+  - { icon: "ti-instagram", link: "#" }
+  - { icon: "ti-dribbble", link: "#" }
+  - { icon: "ti-twitter", link: "#" }
+
+#-------------------------------
+# About (Section and Page)
+
+# About Section
+blurb: I'm a web development student at Epitech, learning how to build
+            clean, functional, and user-focused websites. I'm still growing my
+            skills, but I love solving problems, experimenting with new tools,
+            and turning ideas into real projects. This portfolio is a place to
+            document what I'm learning and what I'm creating along the way.
+
+blurb-btn-link: "/about"
+blurb-btn-name: know more
+
+# About Page
+
+# Work Process Section
+work-process:
+  - title: "Research and Plan"
+    icon: "assets/images/icons/plan.png"
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+  - title: "Design and Develop"
+    icon: "assets/images/icons/design.png"
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+  - title: "Deliver"
+    icon: "assets/images/icons/print.png"
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+# My Team Section
+team:
+  - title: "Jack Schenziwe"
+    image: "assets/images/team/member-1.png"
+    designation: "Project Manager"
+
+  - title: "Julias Carlie"
+    image: "assets/images/team/member-2.png"
+    designation: "Web Developer"
+
+  - title: "John Doe"
+    image: "assets/images/team/member-3.png"
+    designation: "Designer"
+
+#-------------------------------
+# Skills Section
+
+skills-title: Skills
+skills:
+  - { name: JavaScript, color: "#fdb157", value: "90%" }
+  - { name: Python, color: "#9473e6", value: "60%" }
+  - { name: PHP, color: "#bdecf6", value: "80%" }
+  - { name: HTML & CSS, color: "#ffbcaa", value: "70%" }
+
+#-------------------------------
+# Exprerience Section
+
+experience-title: Experience
+experience:
+  - {
+      name: Social Media Manager,
+      icon: "icon-1.png",
+      date: "2023",
+      organization: "PPI PARIS",
+    }
+  - {
+      name: Event Operations Assistant ,
+      icon: "icon-2.png",
+      date: "2024 - 2025",
+      organization: "THE NITRO FACTORY AGENCY",
+    }
+  - {
+      name: Event Tech<br>Volunteer,
+      icon: "icon-3.png",
+      date: "2026",
+      organization: "VIVA TECHNOLOGY",
+    }
+
+#-------------------------------
+# Education Section
+
+education-title: Education
+education:
+  - {
+      name: Bachelor's Degree in English Studies,
+      date: "2023 - 2025",
+      organization: "Sorbonne Université",
+    }
+  - {
+      name: DUEF - French as a Foreign Language,
+      date: "2022 - 2023",
+      organization: "Université de Nantes",
+    }
+  - {
+      name: Super Intensive French Program,
+      date: "2019 - 2021",
+      organization: "Institut Français d'Indonésie",
+    }
+  - {
+      name: Mathematics & Natural Sciences Program,
+      date: "2016 - 2019",
+      organization: "High School 4 Kendari, Indonesia",
+    }
+
+#-------------------------------
+# Services Section
+
+services-title: Services
+services:
+  - {
+      name: Full-Stack Development,
+      icon: ti-palette,
+      description: "Developing the Front-End and the Back-End of a website, where it tackles both the client-side and server-side. Front-End involves designing user-friendly interfaces. Back-End ensures the site operates smoothly and data is secured.",
+      active: ,# Add true to select section
+    }
+  - {
+      name: Responsive Design Services,
+      icon: ti-vector,
+      description: "Designing flexible layout and images, ensuring text is easily readable, and making navigation seamless. It's crucial as it ensures websites provide an optimal viewing experience across different devices, be it a desktop or mobile screen.",
+      active: true, # Add true to select section
+    }
+  - {
+      name: Website Maintenance Services,
+      icon: ti-panel,
+      description: "Ensuring a website stays functional, up-to-date and secure. Website maintenance tasks include updating content, fixing bugs, speeding up performance, and integrating cutting-edge technologies.",
+      active: ,# Add true to select section
+    }
+
+#-------------------------------
+# Portfolio (Section and Page)
+
+# Portfolio Home Section
+portfolio-home-items:
+  - image: "assets/images/photos/blue.jpg"
+    url: "#"
+
+  - image: "assets/images/photos/smallyellow.jpg"
+    url: "#"
+
+  - image: "assets/images/photos/smallblue.jpg"
+    url: "#"
+
+  - image: "assets/images/photos/smallred.jpg"
+    url: "#"
+
+  - image: "assets/images/photos/smallpurple.jpg"
+    url: "#"
+
+# Portfolio Page
+portfolio-label:
+  - { title: "UI/UX Design", type: "design" }
+  - { title: "BRANDING", type: "branding" }
+  - { title: "ILLUSTRATION", type: "illustration" }
+
+portfolio-items:
+  - image: "assets/images/portfolio/item-1.png"
+    url: "#"
+    portfolio-type:
+      - type: "design"
+      - type: "illustration"
+
+  - image: "assets/images/portfolio/item-2.png"
+    url: "#"
+    portfolio-type:
+      - type: "branding"
+
+  - image: "assets/images/portfolio/item-3.png"
+    url: "#"
+    portfolio-type:
+      - type: "illustration"
+
+  - image: "assets/images/portfolio/item-6.png"
+    url: "#"
+    portfolio-type:
+      - type: "design"
+      - type: "branding"
+
+  - image: "assets/images/portfolio/item-8.png"
+    url: "#"
+    portfolio-type:
+      - type: "illustration"
+
+  - image: "assets/images/portfolio/item-5.png"
+    url: "#"
+    portfolio-type:
+      - type: "design"
+
+  - image: "assets/images/portfolio/item-1.png"
+    url: "#"
+    portfolio-type:
+      - type: "branding"
+
+  - image: "assets/images/portfolio/item-3.png"
+    url: "#"
+    portfolio-type:
+      - type: "design"
+      - type: "illustration"
+      - type: "branding"
+
+  - image: "assets/images/portfolio/item-7.png"
+    url: "#"
+    portfolio-type:
+      - type: "illustration"
+
+#-------------------------------
+# Testimonials Section
+
+testimonial-items:
+  - name: "Jesica Gomez"
+    image: "assets/images/testimonial/client-1.png"
+    designation: "CEO, Funder"
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+
+  - name: "Jesica Gomez"
+    image: "assets/images/testimonial/client-1.png"
+    designation: "CEO, Funder"
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+
+  - name: "Jesica Gomez"
+    image: "assets/images/testimonial/client-1.png"
+    designation: "CEO, Funder"
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+
+#-------------------------------
+# Client Slider Section
+
+client-slider-items:
+  - logo: "assets/images/photos/Epitech.png"
+    url: "#"
+
+  - logo: "assets/images/photos/Epitech.png"
+    url: "#"
+
+  - logo: "assets/images/photos/Epitech.png"
+    url: "#"
+
+  - logo: "assets/images/photos/Epitech.png"
+    url: "#"
+
+  - logo: "assets/images/photos/Epitech.png"
+    url: "#"
+
+  - logo: "assets/images/photos/Epitech.png"
+    url: "#"
+
+  - logo: "assets/images/photos/Epitech.png"
+    url: "#"
+
+  - logo: "assets/images/photos/Epitech.png"
+    url: "#"
+
+  - logo: "assets/images/photos/Epitech.png"
+    url: "#"
+
+  - logo: "assets/images/photos/Epitech.png"
+    url: "#"
+
+#-------------------------------
+# Contact Section
+
+contact-title: Contact Info
+contact-email: shanisyalahida@gmail.com
