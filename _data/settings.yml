@@ -1,9 +1,9 @@
 ---
 #-------------------------------
-# General Site Settings.
+# General Site Settings
 
 title: Shanisya Lahida
-logo: Shanisya Lahida
+logo: null
 author: Shanisya Lahida
 email: shanisyalahida<br>@gmail.com
 phone: +33 6 83 33 11
@@ -13,7 +13,6 @@ copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.c
 
 menu:
   - { name: About, link: "/about/" }
-  - { name: Blog, link: "/blog/" }
   - { name: Portfolio, link: "/portfolio/" }
   - { name: Contact, link: "/contact/" }
 
@@ -53,7 +52,7 @@ blurb: I'm a web development student at Epitech, learning how to build
             skills, but I love solving problems, experimenting with new tools,
             and turning ideas into real projects. This portfolio is a place to
             document what I'm learning and what I'm creating along the way.
-
+            
 blurb-btn-link: "/about"
 blurb-btn-name: know more
 
@@ -63,29 +62,17 @@ blurb-btn-name: know more
 work-process:
   - title: "Research and Plan"
     icon: "assets/images/icons/plan.png"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    content: "I start by understanding the project's goals, users, and content. This allows me to create a clear structure and a solid strategy before writing any code."
 
-  - title: "Design and Develop"
+  - title: "Design & Build"
     icon: "assets/images/icons/design.png"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    content: "I turn ideas into responsive and well-structured websites, focusing on usability, performance, and clean design across all devices. I also make sure the code is organized, scalable, and easy to maintain."
 
-  - title: "Deliver"
+  - title: "Test & Improve"
     icon: "assets/images/icons/print.png"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    content: "I test every detail, fix issues, and refine the experience to ensure the website is reliable, smooth, and ready to go live. Feedback and real usage help me continuously improve the final result."
 
-# My Team Section
-team:
-  - title: "Jack Schenziwe"
-    image: "assets/images/team/member-1.png"
-    designation: "Project Manager"
 
-  - title: "Julias Carlie"
-    image: "assets/images/team/member-2.png"
-    designation: "Web Developer"
-
-  - title: "John Doe"
-    image: "assets/images/team/member-3.png"
-    designation: "Designer"
 
 #-------------------------------
 # Skills Section
@@ -176,95 +163,51 @@ services:
 
 # Portfolio Home Section
 portfolio-home-items:
-  - image: "assets/images/photos/blue.jpg"
+  - image: "assets/images/portfolio/agency.jpg"
+    url: "https://shayzle.github.io/MOVE-EASE-PARIS-AGENCY-WEBSITE/"
+
+  - image: "assets/images/portfolio/math.jpg"
+    url: "https://shayzle.github.io/MATHS-CLES-SCHOOL-TEAM-PROJECT/"
+
+  - image: "assets/images/portfolio/klivio11.jpg"
+    url: "https://shayzle.github.io/HTMLandCSS/"
+
+  - image: "assets/images/portfolio/cv3.jpg"
     url: "#"
 
-  - image: "assets/images/photos/smallyellow.jpg"
-    url: "#"
-
-  - image: "assets/images/photos/smallblue.jpg"
-    url: "#"
-
-  - image: "assets/images/photos/smallred.jpg"
-    url: "#"
-
-  - image: "assets/images/photos/smallpurple.jpg"
-    url: "#"
+  - image: "assets/images/portfolio/klivio22.jpg"
+    url: "https://shayzle.github.io/HTMLandTAILWIND/"
 
 # Portfolio Page
 portfolio-label:
-  - { title: "UI/UX Design", type: "design" }
-  - { title: "BRANDING", type: "branding" }
-  - { title: "ILLUSTRATION", type: "illustration" }
+  - { title: "FRONT-END", type: "front-end" }
+  - { title: "BACK-END", type: "back-end" }
+  - { title: "FULL-STACK", type: "full-stack" }
 
 portfolio-items:
-  - image: "assets/images/portfolio/item-1.png"
-    url: "#"
+  - image: "assets/images/portfolio/agency.jpg"
+    url: "https://shayzle.github.io/MOVE-EASE-PARIS-AGENCY-WEBSITE/"
     portfolio-type:
-      - type: "design"
-      - type: "illustration"
+      - type: "front-end"
+      - type: "full-stack"
 
-  - image: "assets/images/portfolio/item-2.png"
-    url: "#"
+  - image: "assets/images/portfolio/math.jpg"
+    url: "https://shayzle.github.io/MATHS-CLES-SCHOOL-TEAM-PROJECT/"
     portfolio-type:
-      - type: "branding"
+      - type: "front-end"
+      - type: "back-end"
+      - type: "full-stack"
 
-  - image: "assets/images/portfolio/item-3.png"
-    url: "#"
+  - image: "assets/images/portfolio/klivio11.jpg"
+    url: "https://shayzle.github.io/HTMLandCSS/"
     portfolio-type:
-      - type: "illustration"
+      - type: "front-end"
 
-  - image: "assets/images/portfolio/item-6.png"
-    url: "#"
+  - image: "assets/images/portfolio/klivio22.jpg"
+    url: "https://shayzle.github.io/HTMLandTAILWIND/"
     portfolio-type:
-      - type: "design"
-      - type: "branding"
+      - type: "front-end"
 
-  - image: "assets/images/portfolio/item-8.png"
-    url: "#"
-    portfolio-type:
-      - type: "illustration"
-
-  - image: "assets/images/portfolio/item-5.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-
-  - image: "assets/images/portfolio/item-1.png"
-    url: "#"
-    portfolio-type:
-      - type: "branding"
-
-  - image: "assets/images/portfolio/item-3.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-      - type: "illustration"
-      - type: "branding"
-
-  - image: "assets/images/portfolio/item-7.png"
-    url: "#"
-    portfolio-type:
-      - type: "illustration"
-
-#-------------------------------
-# Testimonials Section
-
-testimonial-items:
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 
 #-------------------------------
 # Client Slider Section
